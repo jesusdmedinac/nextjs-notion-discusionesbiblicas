@@ -72,6 +72,27 @@
   fill: var(--fg-color);
 }
 
+.acast .actionBgPane {
+  background: #4747de;
+}
+.acast:hover {
+  border-color: #4747de;
+}
+
+.spotify .actionBgPane {
+  background: #60c968;
+}
+.spotify:hover {
+  border-color: #60c968;
+}
+
+.podcast .actionBgPane {
+  background: #8435bc;
+}
+.podcast:hover {
+  border-color: #8435bc;
+}
+
 .facebook .actionBgPane {
   background: #3b5998;
 }
@@ -79,25 +100,22 @@
   border-color: #3b5998;
 }
 
-.twitter .actionBgPane {
-  background: #2795e9;
+.instagram .actionBgPane {
+  background: rgb(147,53,161);
+  background: linear-gradient(225deg, rgba(147,53,161,1) 0%, rgba(191,74,98,1) 50%, rgba(234,184,111,1) 100%);
 }
-.twitter:hover {
-  border-color: #2795e9;
-}
-
-.linkedin .actionBgPane {
-  background: #0077b5;
-}
-.linkedin:hover {
-  border-color: #0077b5;
+.instagram:hover {
+  background: rgb(147,53,161);
+  background: linear-gradient(225deg, rgba(147,53,161,1) 0%, rgba(191,74,98,1) 50%, rgba(234,184,111,1) 100%);
 }
 
-.github .actionBgPane {
-  background: #c9510c;
+.tiktok .actionBgPane {
+  background: rgb(222, 65, 85);
+  background: linear-gradient(225deg, rgb(222, 65, 85) 0%, rgb(110,228,225	) 100%);
 }
-.github:hover {
-  border-color: #c9510c;
+.tiktok:hover {
+  background: rgb(222, 65, 85);
+  background: linear-gradient(225deg, rgb(222, 65, 85) 0%, rgb(110,228,225	) 100%);
 }
 
 .youtube .actionBgPane {
@@ -105,27 +123,6 @@
 }
 .youtube:hover {
   border-color: #FF0000;
-}
-
-.medium .actionBgPane {
-  background: #00ab6c;
-}
-.medium:hover {
-  border-color: #00ab6c;
-}
-
-.newsletter .actionBgPane {
-  background: #777777;
-}
-.newsletter:hover {
-  border-color: #777777;
-}
-
-.email .actionBgPane {
-  background: #777;
-}
-.email:hover {
-  border-color: #777;
 }
 
 @media only screen and (max-width: 768px) {
